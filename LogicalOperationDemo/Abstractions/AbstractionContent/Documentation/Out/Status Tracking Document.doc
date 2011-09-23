@@ -229,94 +229,94 @@ div.WordSection1
 <p class="MsoTitle">Status Tracking Document</p>
 </div>
 		<h1>Summary</h1>
-		<h2>SortNumbersEvensBeforeOdds (83 %)</h2>
+		<h2>SortNumbersEvensBeforeOdds (0 %)</h2>
 		<p>		<div class="MsoNormal" >
-		Being implemented 1, Implemented 5
+		Being implemented 6
 		</div>
-		</p><h1>SortNumbersEvensBeforeOdds (83 %)</h1>
+		</p><h1>SortNumbersEvensBeforeOdds (0 %)</h1>
 		<p><table border="1">
 				<tr><th><div class=MsoNormal>Item</div></th><th><div class=MsoNormal>Status</div></th><th><div class=MsoNormal>Description</div></th></tr>
 				<tr>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		VariableType: DataArray
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
-		Implemented
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Data array whose contents are sorted
 		</div>
 				</td>
 				</tr>
 				<tr>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		VariableType: AscendingOrder
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
-		Implemented
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		If true the array is sorted in ascending order, if false then descending. Evens before odds always regardless though.
 		</div>
 				</td>
 				</tr>
 				<tr>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		ValidationType: DataArrayNotNull
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
-		Implemented
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Validate that DataArray is not null
 		</div>
 				</td>
 				</tr>
 				<tr>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		MethodExecuteType: SortNumbers
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
-		Implemented
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Sorts numbers in given array ascending or descending based on the parameter
 		</div>
 				</td>
 				</tr>
 				<tr>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		MethodExecuteType: SortEvensBeforeOdds
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
-		Implemented
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
+		Being implemented
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Sorts even numbers before odds, retaining the current order
 		</div>
 				</td>

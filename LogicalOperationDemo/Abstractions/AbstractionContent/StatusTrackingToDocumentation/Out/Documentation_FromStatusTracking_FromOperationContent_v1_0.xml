@@ -5,15 +5,15 @@
       <Document name="Status Tracking Document" title="Status Tracking Document">
         <Content>
           <Header text="Summary" level="1">
-            <Header text="SortNumbersEvensBeforeOdds (83 %)" level="2">
+            <Header text="SortNumbersEvensBeforeOdds (0 %)" level="2">
               <Paragraph>
                 <Text>
-                  <TextContent>Being implemented 1, Implemented 5</TextContent>
+                  <TextContent>Being implemented 6</TextContent>
                 </Text>
               </Paragraph>
             </Header>
           </Header>
-          <Header text="SortNumbersEvensBeforeOdds (83 %)" level="1">
+          <Header text="SortNumbersEvensBeforeOdds (0 %)" level="1">
             <Paragraph>
               <Table>
                 <Columns>
@@ -23,57 +23,57 @@
                 </Columns>
                 <Rows>
                   <Row>
-                    <ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>VariableType: DataArray</TextContent>
                     </ColumnData>
-                    <ColumnData>
-                      <TextContent>Implemented</TextContent>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
                     </ColumnData>
-                    <ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>Data array whose contents are sorted</TextContent>
                     </ColumnData>
                   </Row>
                   <Row>
-                    <ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>VariableType: AscendingOrder</TextContent>
                     </ColumnData>
-                    <ColumnData>
-                      <TextContent>Implemented</TextContent>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
                     </ColumnData>
-                    <ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>If true the array is sorted in ascending order, if false then descending. Evens before odds always regardless though.</TextContent>
                     </ColumnData>
                   </Row>
                   <Row>
-                    <ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>ValidationType: DataArrayNotNull</TextContent>
                     </ColumnData>
-                    <ColumnData>
-                      <TextContent>Implemented</TextContent>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
                     </ColumnData>
-                    <ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>Validate that DataArray is not null</TextContent>
                     </ColumnData>
                   </Row>
                   <Row>
-                    <ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>MethodExecuteType: SortNumbers</TextContent>
                     </ColumnData>
-                    <ColumnData>
-                      <TextContent>Implemented</TextContent>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
                     </ColumnData>
-                    <ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>Sorts numbers in given array ascending or descending based on the parameter</TextContent>
                     </ColumnData>
                   </Row>
                   <Row>
-                    <ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>MethodExecuteType: SortEvensBeforeOdds</TextContent>
                     </ColumnData>
-                    <ColumnData>
-                      <TextContent>Implemented</TextContent>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <TextContent>Being implemented</TextContent>
                     </ColumnData>
-                    <ColumnData>
+                    <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                       <TextContent>Sorts even numbers before odds, retaining the current order</TextContent>
                     </ColumnData>
                   </Row>

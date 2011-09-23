@@ -234,112 +234,91 @@ div.WordSection1
 		Sorts array of integers ascending or descending based on the parameter. Even numbers are preferred before odds. 
         Spec sounds funny, but it should be on the same sanity level as an average software specification. So let's at least do it right :-)
 		</div>
-		</p><h3>Requirements</h3>
-		<p><table border="1">
-				<tr><th><div class=MsoNormal>Requirement</div></th><th><div class=MsoNormal>Category</div></th><th><div class=MsoNormal>Description/Data</div></th></tr>
-				<tr>
-				<td>
-				<div class="MsoNormal" >
-		MaximumTimeAllowed
-		</div>
-				</td>
-				<td>
-				<div class="MsoNormal" >
-		Performance
-		</div>
-				</td>
-				<td>
-				<div class="MsoNormal" >
-		Max Total Time 1000 ms
-		</div>
-				</td>
-				</tr>
-		</table>
 		</p><h2>Parameters</h2>
 		<p><table border="1">
 				<tr><th><div class=MsoNormal>Parameter</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
 				<tr>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		DataArray
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		int[]
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Data array whose contents are sorted
 		</div>
 				</td>
 				</tr>
 				<tr>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		AscendingOrder
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		bool
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		If true the array is sorted in ascending order, if false then descending. Evens before odds always regardless though.
 		</div>
 				</td>
 				</tr>
 		</table>
 		</p><h2>Validation: DataArrayNotNull ( DataArray )</h2>
-		<p>		<div class="MsoNormal" >
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Validate that DataArray is not null
 		</div>
 		</p><h2>Execution: SortNumbers ( DataArray, AscendingOrder )</h2>
-		<p>		<div class="MsoNormal" >
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Sorts numbers in given array ascending or descending based on the parameter
 		</div>
 		</p><p><table border="1">
 				<tr><th><div class=MsoNormal>Output value field</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
 				<tr>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		SortedNumbers
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		int[]
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Sorted number based on given criteria
 		</div>
 				</td>
 				</tr>
 		</table>
 		</p><h2>Execution: SortEvensBeforeOdds ( SortNumbersOutput )</h2>
-		<p>		<div class="MsoNormal" >
+		<p>		<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Sorts even numbers before odds, retaining the current order
 		</div>
 		</p><p><table border="1">
 				<tr><th><div class=MsoNormal>Output value field</div></th><th><div class=MsoNormal>DataType</div></th><th><div class=MsoNormal>Description</div></th></tr>
 				<tr>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		FullySorted
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		int[]
 		</div>
 				</td>
 				<td>
-				<div class="MsoNormal" >
+				<div class="MsoNormal" style="color:blue;font-weight:bold;font-style:italic" >
 		Fully sorted value
 		</div>
 				</td>

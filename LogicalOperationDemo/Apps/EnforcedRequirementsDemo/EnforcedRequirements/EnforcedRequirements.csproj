@@ -50,6 +50,22 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\..\Abstractions\AbstractionContent\absbuilder\In\Content_v1_0\AbstractionBuilderContent_v1_0.xml">
+      <Link>AbsInput\AbstractionBuilderContent_v1_0.xml</Link>
+    </Content>
+    <Content Include="..\..\..\Abstractions\AbstractionContent\Operation\In\Content_v1_0\OperationContent_v1_0.xml">
+      <Link>AbsInput\OperationContent_v1_0.xml</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Abstractions\AbstractionContent\Documentation\Out\Operations.doc">
+      <Link>AbsOutput\Operations.doc</Link>
+    </None>
+    <None Include="..\..\..\Abstractions\AbstractionContent\Documentation\Out\Status Tracking Document.doc">
+      <Link>AbsOutput\Status Tracking Document.doc</Link>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
