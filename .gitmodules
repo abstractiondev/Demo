@@ -1,0 +1,27 @@
+[submodule "LogicalOperationDemo/Abstractions/absbuilder"]
+	path = LogicalOperationDemo/Abstractions/absbuilder
+	url = git@github.com:abstractiondev/absbuilder
+[submodule "LogicalOperationDemo/Abstractions/abscommon"]
+	path = LogicalOperationDemo/Abstractions/abscommon
+	url = git@github.com:abstractiondev/abscommon
+[submodule "LogicalOperationDemo/Abstractions/absconfig"]
+	path = LogicalOperationDemo/Abstractions/absconfig
+	url = git@github.com:abstractiondev/absconfig
+[submodule "LogicalOperationDemo/Abstractions/DocumentationABS"]
+	path = LogicalOperationDemo/Abstractions/DocumentationABS
+	url = git@github.com:abstractiondev/DocumentationABS
+[submodule "LogicalOperationDemo/Abstractions/OperationABS"]
+	path = LogicalOperationDemo/Abstractions/OperationABS
+	url = git@github.com:abstractiondev/OperationABS
+[submodule "LogicalOperationDemo/Abstractions/OperationToDocumentationTRANS"]
+	path = LogicalOperationDemo/Abstractions/OperationToDocumentationTRANS
+	url = git@github.com:abstractiondev/OperationToDocumentationTRANS
+[submodule "LogicalOperationDemo/Abstractions/OperationToStatusTrackingTRANS"]
+	path = LogicalOperationDemo/Abstractions/OperationToStatusTrackingTRANS
+	url = git@github.com:abstractiondev/OperationToStatusTrackingTRANS
+[submodule "LogicalOperationDemo/Abstractions/StatusTrackingToDocumentationTRANS"]
+	path = LogicalOperationDemo/Abstractions/StatusTrackingToDocumentationTRANS
+	url = git@github.com:abstractiondev/StatusTrackingToDocumentationTRANS
+[submodule "LogicalOperationDemo/Abstractions/StatusTrackingABS"]
+	path = LogicalOperationDemo/Abstractions/StatusTrackingABS
+	url = git@github.com:abstractiondev/StatusTrackingABS
