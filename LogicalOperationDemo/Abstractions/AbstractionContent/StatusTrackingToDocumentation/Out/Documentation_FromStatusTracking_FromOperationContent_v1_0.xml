@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<DocumentationAbstraction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/Operation_v1_0.xsd">
+  <Documentations>
+    <Documents>
+      <Document name="Status Tracking Document" title="Status Tracking Document">
+        <Content>
+          <Header text="Summary" level="1">
+            <Header text="SortNumbersEvensBeforeOdds (0 %)" level="2">
+              <Paragraph>
+                <Text>
+                  <TextContent>Under design 6</TextContent>
+                </Text>
+              </Paragraph>
+            </Header>
+          </Header>
+          <Header text="SortNumbersEvensBeforeOdds (0 %)" level="1">
+            <Paragraph>
+              <Table>
+                <Columns>
+                  <Column name="Item" />
+                  <Column name="Status" />
+                  <Column name="Description" />
+                </Columns>
+                <Rows>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>DataArray</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Data array whose contents are sorted</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>AscendingOrder</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>If true the array is sorted in ascending order, if false then descending. Evens before odds always regardless though.</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>DataArrayNotNull</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Validate that DataArray is not null</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>SortNumbers</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Sorts numbers in given array ascending or descending based on the parameter</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>SortEvensBeforeOdds</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Sorts even numbers before odds, retaining the current order</TextContent>
+                    </ColumnData>
+                  </Row>
+                  <Row>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>SortedArray</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Under design</TextContent>
+                    </ColumnData>
+                    <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <TextContent>Sorted result array</TextContent>
+                    </ColumnData>
+                  </Row>
+                </Rows>
+              </Table>
+            </Paragraph>
+          </Header>
+        </Content>
+      </Document>
+    </Documents>
+  </Documentations>
+</DocumentationAbstraction>
