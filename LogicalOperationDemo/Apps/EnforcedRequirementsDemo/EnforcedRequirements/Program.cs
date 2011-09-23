@@ -10,11 +10,17 @@ namespace EnforcedRequirements
     {
         static void Main(string[] args)
         {
-            var result = SortNumbersEvensBeforeOdds.Execute(
+            var okResult = SortNumbersEvensBeforeOdds.Execute(
                 new SortNumbersEvensBeforeOddsParameters() {AscendingOrder = false,
-                    DataArray = new int[] { 1, 2, 3, 4, 5 }
+                    DataArray = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }
                 });
-            int[] finalData = result.SortedArray;
+            int[] okData = okResult.SortedArray;
+
+            var supposedToFailPerfReq = SortNumbersEvensBeforeOdds.Execute(
+                new SortNumbersEvensBeforeOddsParameters() {AscendingOrder = false,
+                    DataArray = new int[5000000]
+                });
+            int[] notSupposedToGetHere = supposedToFailPerfReq.SortedArray;
         }
     }
 }

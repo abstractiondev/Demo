@@ -47,24 +47,24 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>DataArray</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>int[]</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>Data array whose contents are sorted</TextContent>
                       </ColumnData>
                     </Row>
                     <Row>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>AscendingOrder</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>bool</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData>
                         <TextContent>If true the array is sorted in ascending order, if false then descending. Evens before odds always regardless though.</TextContent>
                       </ColumnData>
                     </Row>
@@ -74,14 +74,14 @@
             </Header>
             <Header text="Validation: DataArrayNotNull ( DataArray )" level="2">
               <Paragraph>
-                <Text styleRef="color:red;font-weight:bold;text-decoration:underline">
+                <Text>
                   <TextContent>Validate that DataArray is not null</TextContent>
                 </Text>
               </Paragraph>
             </Header>
             <Header text="Execution: SortNumbers ( DataArray, AscendingOrder )" level="2">
               <Paragraph>
-                <Text styleRef="color:red;font-weight:bold;text-decoration:underline">
+                <Text>
                   <TextContent>Sorts numbers in given array ascending or descending based on the parameter</TextContent>
                 </Text>
               </Paragraph>
@@ -94,13 +94,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>SortedNumbers</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>int[]</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Sorted number based on given criteria</TextContent>
                       </ColumnData>
                     </Row>
@@ -110,7 +110,7 @@
             </Header>
             <Header text="Execution: SortEvensBeforeOdds ( SortNumbersOutput )" level="2">
               <Paragraph>
-                <Text styleRef="color:red;font-weight:bold;text-decoration:underline">
+                <Text>
                   <TextContent>Sorts even numbers before odds, retaining the current order</TextContent>
                 </Text>
               </Paragraph>
@@ -123,13 +123,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>FullySorted</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>int[]</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
+                      <ColumnData>
                         <TextContent>Fully sorted value</TextContent>
                       </ColumnData>
                     </Row>
@@ -147,13 +147,13 @@
                   </Columns>
                   <Rows>
                     <Row>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                         <TextContent>SortedArray</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                         <TextContent>int[]</TextContent>
                       </ColumnData>
-                      <ColumnData styleRef="color:red;font-weight:bold;text-decoration:underline">
+                      <ColumnData styleRef="color:blue;font-weight:bold;font-style:italic">
                         <TextContent>Sorted result array</TextContent>
                       </ColumnData>
                     </Row>

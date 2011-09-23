@@ -54,12 +54,7 @@
   <ItemGroup>
     <Folder Include="Documentation\In\Content_v1_0\" />
     <Folder Include="Documentation\Out\" />
-    <Folder Include="OperationToDocumentation\In\Content_v1_0\" />
-    <Folder Include="OperationToDocumentation\Out\Content_v1_0\" />
-    <Folder Include="OperationToStatusTracking\In\Content_v1_0\" />
-    <Folder Include="OperationToStatusTracking\Out\" />
     <Folder Include="Operation\Out\" />
-    <Folder Include="StatusTracking\Content_v1_0\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
