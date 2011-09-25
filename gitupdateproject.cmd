@@ -1,4 +1,4 @@
 @echo Pull for root project...
-git pull
+call git pull
 @echo Pull for submodules...
-git submodule foreach pull origin master
+call git submodule foreach git pull origin master
