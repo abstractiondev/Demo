@@ -25,3 +25,6 @@
 [submodule "LogicalOperationDemo/Abstractions/StatusTrackingToDocumentationTRANS"]
 	path = LogicalOperationDemo/Abstractions/StatusTrackingToDocumentationTRANS
 	url = git://github.com/abstractiondev/StatusTrackingToDocumentationTRANS
+[submodule "LogicalOperationDemo/Abstractions/RssFeedReaderABS"]
+	path = LogicalOperationDemo/Abstractions/RssFeedReaderABS
+	url = git://github.com/abstractiondev/RssFeedReaderABS
